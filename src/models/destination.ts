@@ -2,9 +2,9 @@ import mongoose, { Model, Schema } from 'mongoose';
 
 interface IDestination {
     name: string;
-    type: string;
-    ingredients: [string];
-    instructions: string;
+    city: string;
+    activities: [string];
+    country: string;
 }
 
 const destinationSchema = new mongoose.Schema({
